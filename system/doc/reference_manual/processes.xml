@@ -49,7 +49,7 @@ spawn(Module, Name, Args) -> pid()
     <p><c>spawn</c> creates a new process and returns the pid.</p>
     <p>The new process starts executing in
       <c>Module:Name(Arg1,...,ArgN)</c> where the arguments are
-      the elements of the (possible empty) <c>Args</c> argument list.</p>
+      the elements of the (possibly empty) <c>Args</c> argument list.</p>
     <p>There exist a number of other <c>spawn</c> BIFs, for example,
       <c>spawn/4</c> for spawning a process at another node.</p>
   </section>

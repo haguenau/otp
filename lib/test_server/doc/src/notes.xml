@@ -458,7 +458,7 @@
 	    'major' log file (suite.log), which was earlier encoded
 	    as latin1. To avoid crashing this file descriptor due to
 	    unicode strings, the 'major' log file is now also encoded
-	    in UTF-8 (possible incopatibility). </item> <item> The
+	    in UTF-8 (possible incompatibility). </item> <item> The
 	    cross_cover.info file is no longer a text file which can
 	    be read with file:consult/1, instead it is written as a
 	    pure binary file using term_to_binary when writing and
